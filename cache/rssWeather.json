@@ -1,0 +1,172 @@
+{
+	"weatherJSONArray": [
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "00:00",
+			"Temperature": "10.3 °C",
+			"Rain": "51%",
+			"Wind": "14.4 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "01:00",
+			"Temperature": "10.7 °C",
+			"Rain": "55%",
+			"Wind": "13.7 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "02:00",
+			"Temperature": "11.1 °C",
+			"Rain": "53%",
+			"Wind": "18.7 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "03:00",
+			"Temperature": "10.6 °C",
+			"Rain": "51%",
+			"Wind": "11.9 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "04:00",
+			"Temperature": "10.4 °C",
+			"Rain": "48%",
+			"Wind": "12.6 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "05:00",
+			"Temperature": "10.5 °C",
+			"Rain": "45%",
+			"Wind": "15.1 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "06:00",
+			"Temperature": "10.9 °C",
+			"Rain": "45%",
+			"Wind": "15.1 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "07:00",
+			"Temperature": "11 °C",
+			"Rain": "53%",
+			"Wind": "15.1 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "08:00",
+			"Temperature": "12 °C",
+			"Rain": "64%",
+			"Wind": "14.8 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "09:00",
+			"Temperature": "12.2 °C",
+			"Rain": "75%",
+			"Wind": "19.4 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "10:00",
+			"Temperature": "12.5 °C",
+			"Rain": "84%",
+			"Wind": "15.1 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "11:00",
+			"Temperature": "13.2 °C",
+			"Rain": "93%",
+			"Wind": "18.7 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "12:00",
+			"Temperature": "13.8 °C",
+			"Rain": "98%",
+			"Wind": "20.9 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "13:00",
+			"Temperature": "14.4 °C",
+			"Rain": "100%",
+			"Wind": "23.8 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "14:00",
+			"Temperature": "14.7 °C",
+			"Rain": "99%",
+			"Wind": "26.3 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "15:00",
+			"Temperature": "14.9 °C",
+			"Rain": "94%",
+			"Wind": "31 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "16:00",
+			"Temperature": "14.8 °C",
+			"Rain": "82%",
+			"Wind": "31 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "17:00",
+			"Temperature": "14.6 °C",
+			"Rain": "66%",
+			"Wind": "28.8 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "18:00",
+			"Temperature": "14.4 °C",
+			"Rain": "51%",
+			"Wind": "27.7 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "19:00",
+			"Temperature": "14.2 °C",
+			"Rain": "36%",
+			"Wind": "23.4 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "20:00",
+			"Temperature": "14.1 °C",
+			"Rain": "22%",
+			"Wind": "25.2 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "21:00",
+			"Temperature": "14.1 °C",
+			"Rain": "12%",
+			"Wind": "28.4 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "22:00",
+			"Temperature": "13.8 °C",
+			"Rain": "11%",
+			"Wind": "25.9 km/h"
+		},
+		{
+			"Date": "30 septembre 2024",
+			"Hour": "23:00",
+			"Temperature": "13.6 °C",
+			"Rain": "15%",
+			"Wind": "25.6 km/h"
+		}
+	]
+}

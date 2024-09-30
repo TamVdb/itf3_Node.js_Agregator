@@ -1,0 +1,28 @@
+{
+	"items": [
+		{
+			"Title": "Les routes du Sahara seraient deux fois plus meurtrières que la traversée de la Méditerranée",
+			"Link": "https://www.nationalgeographic.fr/voyage/diplomatie-migration-les-routes-du-sahara-seraient-deux-fois-plus-meurtrieres-que-la-traversee-de-la-mediterranee",
+			"Category": "Voyage",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/img_3526.jpg?w=1600"
+		},
+		{
+			"Title": "Europe : les plus beaux sentiers à découvrir en automne",
+			"Link": "https://www.nationalgeographic.fr/voyage/europe-les-plus-beaux-sentiers-a-decouvrir-en-automne-randonnee-marche-trek",
+			"Category": "Voyage",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/autumnhikeslatvia.jpg?w=1600"
+		},
+		{
+			"Title": "Sommaire du magazine National Geographic du mois d'octobre 2024 : Numéro spécial Amazonie",
+			"Link": "https://www.nationalgeographic.fr/voyage/2024/09/sommaire-du-magazine-national-geographic-du-mois-doctobre-2024-numero-special-amazonie",
+			"Category": "Voyage",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/ng301-couv.jpg?w=1600"
+		},
+		{
+			"Title": "Expériences 5 étoiles : comment les safaris ont évolué vers le luxe en quelques années",
+			"Link": "https://www.nationalgeographic.fr/voyage/experiences-5-etoiles-comment-les-safaris-ont-evolue-vers-le-luxe-en-quelques-annees-tourisme-animalier-durable-afrique",
+			"Category": "Voyage",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/reportluxurysafariscover_0.jpg?w=1600"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"items": [
+		{
+			"Title": "Anne Bonny et Mary Read, le destin extraordinaire de deux femmes pirates",
+			"Link": "https://www.nationalgeographic.fr/histoire/anne-bonny-et-mary-read-le-destin-extraordinaire-de-deux-femmes-pirates-legendes-piraterie",
+			"Category": "Histoire",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/107_annebonnyandmaryread_piratesbehindthelegends_hd_14.jpg?w=1600"
+		},
+		{
+			"Title": "La bataille de la Tollense, le plus grand combat de l'Âge du Bronze",
+			"Link": "https://www.nationalgeographic.fr/histoire/a-bataille-de-la-tollense-le-plus-grand-combat-age-du-bronze-en-europe-conflits-guerre",
+			"Category": "Histoire",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/figure-2final.jpg?w=1600"
+		},
+		{
+			"Title": "Les Mayas ne faisaient pas que fumer le tabac... ils le buvaient aussi",
+			"Link": "https://www.nationalgeographic.fr/histoire/les-mayas-ne-faisaient-pas-que-fumer-le-tabac-ils-le-buvaient-peuple-ancien-meso-amerique",
+			"Category": "Histoire",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/tabac-mayas.jpg?w=1600"
+		},
+		{
+			"Title": "Le Ouija : du jeu de salon au spiritisme",
+			"Link": "https://www.nationalgeographic.fr/histoire/ouija-du-jeu-de-salon-au-spiritisme-esprits-morts-mediums",
+			"Category": "Histoire",
+			"ImageUrl": "https://static.nationalgeographic.fr/files/styles/image_3200/public/ouija.jpg?w=1600"
+		}
+	]
+}

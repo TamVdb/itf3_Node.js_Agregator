@@ -1,0 +1,17 @@
+[
+	{
+		"Currency": "CNY",
+		"Name": "Chinese Yuan",
+		"Rate": 7.84
+	},
+	{
+		"Currency": "GBP",
+		"Name": "U.K. Pound Sterling",
+		"Rate": 0.83
+	},
+	{
+		"Currency": "USD",
+		"Name": "U.S. Dollar",
+		"Rate": 1.12
+	}
+]
