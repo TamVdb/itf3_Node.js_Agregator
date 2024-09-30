@@ -1,0 +1,25 @@
+# Mac files
+.DS_Store
+
+# Windows
+desktop.ini
+
+# VS CODE
+.vscode/*
+*.code-workspace
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# GitHub images
+images/git/
+images/INPUT/
+
+# Photoshop & Illustrator
+.psd
+.ai
+
+# Node
+node_modules
