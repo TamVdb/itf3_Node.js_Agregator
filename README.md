@@ -17,25 +17,22 @@
 # Getting started
 - Clone the repository
 ```
-git clone  <git lab template url> <project_name>
+git clone https://github.com/TamVdb/itf3_Nodejs_Agregator.git
 ```
 - Install dependencies
 ```
 cd <project_name>
 npm install
+npm install ejs
+npm install express
+npm install xml2js
 ```
 - Build and run the project
 ```
 npm start
 ```
-  Navigate to `http://localhost:8001`
-
-
-### Dependencies
-* ejs
-* express
-* xml2js
-
+  Navigate to `http://localhost:8000`
+  
 
 ## Visuals
 
