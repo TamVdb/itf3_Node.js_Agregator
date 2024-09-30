@@ -8,6 +8,7 @@
 * CSS3
 * JavaScript
 * Node.js
+* EJS
 * VS Code
 
 
