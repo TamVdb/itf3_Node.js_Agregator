@@ -29,7 +29,7 @@ npm install xml2js
 ```
 - Build and run the project
 ```
-npm start
+node app.js
 ```
   Navigate to `http://localhost:8000`
   
