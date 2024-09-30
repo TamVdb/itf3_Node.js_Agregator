@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+   <title>RSS Feed</title>
+   <!-- CSS -->
+   <link rel="stylesheet" href="./style/main.css" />
+   <!-- Script -->
+   <script defer src="./script/main.js"></script>
+</head>
+
+<body>
+   <main>
+      <div class="container">
+         <div class="grid-container">
+            <div class="row-top">
+               <div class="col-left">
+                  <div class="item liveboard" id="item1">
+                     <div class="container">
+                        <div class="from-station">Trains from Brussels-Nord Station</div>
+                        <div class="row title">
+                           <div class="time">Departure</div>
+                           <div class="destination">Destination</div>
+                           <div class="train">Train</div>
+                           <div class="track">Track</div>
+                        </div>
+                        <% megaJSON.liveboard.liveboardJSONArray.forEach(item=> { %>
+                           <div class="row">
+                              <div class="time">
+                                 <%= item.Time %><span class=""> +<%= item.Delay %>'</span>
+                              </div>
+                              <div class="destination">
+                                 <%= item.Station %>
+                              </div>
+                              <div class="train">
+                                 <%= item.Vehicle %>
+                              </div>
+                              <div class="track">
+                                 <%= item.Platform %>
+                              </div>
+                           </div>
+                           <% }); %>
+                     </div>
+                  </div>
+                  <div class="item weather" id="item2">
+                     <div class="container">
+                        <div class="date">
+                           <%= megaJSON.weather.weatherJSONArray[0].Date %>
+                        </div>
+                        <div class="temp">
+                           <div class="col">
+                              <div class="time">
+                                 <%= megaJSON.weather.weatherJSONArray[8].Hour %>
+                              </div>
+                              <div class="degre">
+                                 <%= megaJSON.weather.weatherJSONArray[8].Temperature %>
+                              </div>
+                              <div class="rain"><img src="./img/rain.png" alt="umbrellla icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[8].Rain %>
+                              </div>
+                              <div class="wind"><img src="./img/wind.png" alt="wind icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[8].Wind %>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="time">
+                                 <%= megaJSON.weather.weatherJSONArray[12].Hour %>
+                              </div>
+                              <div class="degre">
+                                 <%= megaJSON.weather.weatherJSONArray[12].Temperature %>
+                              </div>
+                              <div class="rain"><img src="./img/rain.png" alt="umbrellla icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[12].Rain %>
+                              </div>
+                              <div class="wind"><img src="./img/wind.png" alt="wind icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[12].Wind %>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="time">
+                                 <%= megaJSON.weather.weatherJSONArray[16].Hour %>
+                              </div>
+                              <div class="degre">
+                                 <%= megaJSON.weather.weatherJSONArray[16].Temperature %>
+                              </div>
+                              <div class="rain"><img src="./img/rain.png" alt="umbrellla icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[16].Rain %>
+                              </div>
+                              <div class="wind"><img src="./img/wind.png" alt="wind icon" />
+                                 <%= megaJSON.weather.weatherJSONArray[16].Wind %>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-middle">
+                  <div class="item news_monde" id="item3">
+                     <div class="container">
+                        <% megaJSON.lemonde.items.forEach(item=> { %>
+                           <div class="row">
+                              <div class="row">
+                                 <div class="image">
+                                    <a href="<%= item.Link %>" target="_blank"><img src="<%= item.ImageUrl %>"
+                                          alt="<%= item.Title %>" /></a>
+                                 </div>
+                                 <div class="infos">
+                                    <div class="title">
+                                       <%= item.Title %>
+                                    </div>
+                                    <div class="date">
+                                       <%= item.Date %>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="description">
+                                 <%= item.Description %>
+                              </div>
+                           </div>
+                           <% }); %>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-right">
+                  <div class="item floatrates" id="item4">
+                     <div class="container">
+                        <row class="title">Euro exchange rates</row>
+                        <div class="row">
+                           <div class="country">
+                              <div class="flag"><img src="./img/us.png" alt="United States Flag" /></div>
+                              <div class="currency">
+                                 <div class="currency-code">
+                                    <%= megaJSON.floatrates[2].Currency %>
+                                 </div>
+                                 <div class="currency-name">
+                                    <%= megaJSON.floatrates[2].Name %>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="rate">
+                              <%= megaJSON.floatrates[2].Rate %>$
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="country">
+                              <div class="flag"><img src="./img/uk.png" alt="United Kingdom Flag" /></div>
+                              <div class="currency">
+                                 <div class="currency-code">
+                                    <%= megaJSON.floatrates[1].Currency %>
+                                 </div>
+                                 <div class="currency-name">
+                                    <%= megaJSON.floatrates[1].Name %>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="rate">
+                              <%= megaJSON.floatrates[1].Rate %>£
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="country">
+                              <div class="flag"><img src="./img/china.png" alt="Chinese Flag" /></div>
+                              <div class="currency">
+                                 <div class="currency-code">
+                                    <%= megaJSON.floatrates[0].Currency %>
+                                 </div>
+                                 <div class="currency-name">
+                                    <%= megaJSON.floatrates[0].Name %>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="rate">
+                              <%= megaJSON.floatrates[0].Rate %>¥
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item time" id="item5">
+                     <div class="container">
+                        <div class="clock">
+                           <div class="hour needle" id="hour">
+                              <i></i>
+                           </div>
+
+                           <div class="minute needle" id="min">
+                              <i></i>
+                           </div>
+
+                           <div class="seconde needle" id="sec">
+                              <i></i>
+                           </div>
+                           <div class="line-wrapper">
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                              <div class="line"></div>
+                           </div>
+                           <!-- <span style="--i: 1">1</span>
+                           <span style="--i: 2">2</span>
+                           <span style="--i: 3">3</span>
+                           <span style="--i: 4">4</span>
+                           <span style="--i: 5">5</span>
+                           <span style="--i: 6">6</span>
+                           <span style="--i: 7">7</span>
+                           <span style="--i: 8">8</span>
+                           <span style="--i: 9">9</span>
+                           <span style="--i: 10">10</span>
+                           <span style="--i: 11">11</span>
+                           <span style="--i: 12">12</span> -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row-bottom">
+               <div class="item natgeo_animal" id="item6">
+                  <div class="container">
+                     <div class="category">Animaux</div>
+                     <div class="row title">National Geographic</div>
+                     <div class="row">
+                        <div class="image">
+                           <a href="<%= megaJSON.natgeoanimal.items[0].Link %>" target="_blank"><img
+                                 src="<%= megaJSON.natgeoanimal.items[0].ImageUrl %>" alt="" /></a>
+                        </div>
+                        <div class="title">
+                           <%= megaJSON.natgeoanimal.items[0].Title %>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="title">
+                           <%= megaJSON.natgeoanimal.items[1].Title %>
+                        </div>
+                        <div class="image">
+                           <a href="<%= megaJSON.natgeoanimal.items[1].Link %>" target="_blank"><img
+                                 src="<%= megaJSON.natgeoanimal.items[1].ImageUrl %>" alt="" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="item natgeo_voyage" id="item7">
+                  <div class="container">
+                     <div class="category">Voyage</div>
+                     <div class="row title">National Geographic</div>
+                     <div class="row">
+                        <div class="image">
+                           <a href="<%= megaJSON.natgeotravel.items[1].Link %>" target="_blank"><img
+                                 src="<%= megaJSON.natgeotravel.items[1].ImageUrl %>"
+                                 alt="<%= megaJSON.natgeotravel.items[1].Title %>" /></a>
+                        </div>
+                        <div class="title">
+                           <%= megaJSON.natgeotravel.items[1].Title %>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="item" id="item8"></div>
+
+               <div class="item natgeo_space" id="item9">
+                  <div class="container">
+                     <div class="category">Histoire</div>
+                     <div class="row title">National Geographic</div>
+                     <div class="row">
+                        <div class="image">
+                           <a href="<%= megaJSON.natgeospace.items[0].Link %>" target="_blank"><img
+                                 src="<%= megaJSON.natgeospace.items[0].ImageUrl %>" alt="" /></a>
+                        </div>
+                        <div class="title">
+                           <%= megaJSON.natgeospace.items[0].Title %>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+</body>
+
+</html>
