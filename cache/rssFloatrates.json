@@ -2,7 +2,7 @@
 	{
 		"Currency": "CNY",
 		"Name": "Chinese Yuan",
-		"Rate": 7.84
+		"Rate": 7.62
 	},
 	{
 		"Currency": "GBP",
@@ -12,6 +12,6 @@
 	{
 		"Currency": "USD",
 		"Name": "U.S. Dollar",
-		"Rate": 1.12
+		"Rate": 1.05
 	}
 ]

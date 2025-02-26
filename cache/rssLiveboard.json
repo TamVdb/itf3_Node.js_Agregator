@@ -1,25 +1,25 @@
 {
 	"liveboardJSONArray": [
 		{
+			"Station": "Charleroi-Central",
+			"Time": "19:32",
+			"Platform": "12",
+			"Delay": 27,
+			"Vehicle": "IC 4540"
+		},
+		{
+			"Station": "Hasselt",
+			"Time": "19:48",
+			"Platform": "1",
+			"Delay": 0,
+			"Vehicle": "IC 1518"
+		},
+		{
 			"Station": "Bruxelles-Midi",
-			"Time": "15:05",
+			"Time": "19:48",
 			"Platform": "8",
 			"Delay": 0,
-			"Vehicle": "S8 6585"
-		},
-		{
-			"Station": "Gand-Saint-Pierre",
-			"Time": "15:07",
-			"Platform": "4",
-			"Delay": 0,
-			"Vehicle": "IC 2236"
-		},
-		{
-			"Station": "Liège-Saint-Lambert",
-			"Time": "15:12",
-			"Platform": "7",
-			"Delay": 0,
-			"Vehicle": "IC 2415"
+			"Vehicle": "IC 2439"
 		}
 	]
 }
