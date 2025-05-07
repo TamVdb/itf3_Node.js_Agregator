@@ -28,6 +28,8 @@ app.get('/', function (req, res) {
 	res.render('index.ejs', { megaJSON });
 });
 
+app.set('views', __dirname + '/views');
+
 // lancer les fonctions
 refreshWeather();
 refreshLiveboard();
