@@ -1,3 +1,4 @@
+const path = require('path');
 const https = require('https');
 const filestream = require('fs');
 
@@ -5,13 +6,9 @@ const filestream = require('fs');
 const express = require('express');
 const app = express();
 
-// npm install xml2js
-const parseString = require('xml2js').parseString;
-
-let megaJSON = new Object();
-
 // npm install ejs
 app.set('view engine', 'ejs');
+app.set('views', __dirname + '/views');
 
 // pour notre serveur HTTP utilise pour la racine (/) le répertoire htdocs
 // __dirname donne le chemin (path) du répertoire courant
@@ -21,14 +18,15 @@ app.use('/', express.static(__dirname + '/htdocs'));
 //    console.log("Serveur HTTP en cours d'exécution sur le port 8000");
 // });
 
-module.exports = app;
-
 app.get('/', function (req, res) {
 	console.log(megaJSON);
 	res.render('index.ejs', { megaJSON });
 });
 
-app.set('views', __dirname + '/views');
+// npm install xml2js
+const parseString = require('xml2js').parseString;
+
+let megaJSON = new Object();
 
 // lancer les fonctions
 refreshWeather();
@@ -341,3 +339,5 @@ function refreshNatGeo() {
 		});
 	}
 }
+
+module.exports = app;
