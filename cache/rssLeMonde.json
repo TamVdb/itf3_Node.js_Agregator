@@ -1,18 +1,18 @@
 {
 	"items": [
 		{
-			"Title": "La NASA part à la recherche de l’eau de la Lune, à l’aide d’une mission privée",
-			"Date": "26 février 2025",
-			"Description": "Pour la première fois, une mission scientifique privée va préparer l’exploitation des ressources sur la Lune. IM-2, qui doit décoller dans la nuit du 26 au 27 février, ira extraire des échantillons du sol lunaire pour établir la quantité de gaz et de glace d’eau qui s’y trouve piégée. Des informations nécessaires avant d’envisager une base lunaire habitée.",
-			"Link": "https://www.lemonde.fr/sciences/article/2025/02/26/la-nasa-part-a-la-recherche-de-l-eau-de-la-lune-a-l-aide-d-une-mission-privee_6565589_1650684.html",
-			"ImageUrl": "https://img.lemde.fr/2025/02/26/170/0/2048/1024/644/322/60/0/7ec07b6_sirius-fs-upload-1-vhgq8h7uih5g-1740579012867-54339501791-843ad54a16-k.jpg"
+			"Title": "Satellites : l’Etat renforce son influence chez Eutelsat",
+			"Date": "5 mai 2025",
+			"Description": "La nomination du Français Jean-François Fallacher, venu d’Orange, à la direction générale confirme le caractère stratégique de l’opérateur.",
+			"Link": "https://www.lemonde.fr/economie/article/2025/05/05/satellites-l-etat-renforce-son-influence-chez-eutelsat_6603231_3234.html",
+			"ImageUrl": "https://img.lemde.fr/2025/05/05/614/0/6720/3360/644/322/60/0/8dbea8d_sirius-fs-upload-1-7oz1mh2zyr7i-1746462032141-maxnewsspecial805579.jpg"
 		},
 		{
-			"Title": "De Kourou à Kiruna, les bases spatiales à la conquête des fusées privées",
-			"Date": "26 février 2025",
-			"Description": "Alors qu’Ariane-6 prépare son premier vol de l’année, le Centre spatial guyanais est en pleine mutation, s’ouvrant aux mini et aux microlanceurs privés, très convoités par d’autres bases de lancement.",
-			"Link": "https://www.lemonde.fr/economie/article/2025/02/26/de-kourou-a-kiruna-les-bases-spatiales-a-la-conquete-des-fusees-privees_6565370_3234.html",
-			"ImageUrl": "https://img.lemde.fr/2025/02/26/255/0/3072/1536/644/322/60/0/a0e1655_sirius-fs-upload-1-yp0sq5iullff-1740558803863-media-appel-kourou-3x.png"
+			"Title": "L’administration Trump veut réduire d’un quart le budget de la NASA",
+			"Date": "5 mai 2025",
+			"Description": "Le budget proposé par la Maison Blanche entend réduire de 53 % les dépenses scientifiques de l’agence et remplacer le lanceur SLS et la capsule Orion par des alternatives du secteur privé après le retour des Américains sur la Lune, programmé pour 2027.",
+			"Link": "https://www.lemonde.fr/sciences/article/2025/05/05/l-administration-trump-veut-reduire-de-moitie-le-budget-de-la-nasa_6603220_1650684.html",
+			"ImageUrl": "https://img.lemde.fr/2025/04/30/433/0/4864/2432/644/322/60/0/b396117_ftp-import-images-1-ptigxw3ujyqc-2025-04-30t160657z-513840781-rc2f8eaptfb5-rtrmadp-3-usa-senate-nominees.JPG"
 		}
 	]
 }
